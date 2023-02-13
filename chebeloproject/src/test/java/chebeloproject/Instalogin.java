@@ -13,6 +13,7 @@ public class Instalogin {
 		
 		driver.get("https://edu-adminweb.adaptit.com/");
 		
+		
 		//WebElement login = driver.findElement(By.xpath("//span[text()=' Sign In']"));
 		//login.click();
 		driver.findElement(By.id("emailInput")).sendKeys("9910");
