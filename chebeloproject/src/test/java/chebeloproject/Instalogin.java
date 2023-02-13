@@ -13,12 +13,12 @@ public class Instalogin {
 		
 		driver.get("https://edu-adminweb.adaptit.com/");
 		
-		
-		//WebElement login = driver.findElement(By.xpath("//span[text()=' Sign In']"));
-		//login.click();
-		driver.findElement(By.id("emailInput")).sendKeys("9910");
+	    driver.findElement(By.id("emailInput")).sendKeys("9910");
+	    
 		driver.findElement(By.id("passwordInput")).sendKeys("1234");
+		
 		WebElement login = driver.findElement(By.xpath("//span[text()=' Sign In']"));
+		
 		login.click();
 		
 
